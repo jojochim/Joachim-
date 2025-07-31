@@ -16,8 +16,19 @@ Ce projet utilise un script Python pour prédire les résultats de matchs de foo
 - Python 3.8 ou plus
 - Un fichier `.env` contenant vos variables secrètes (ex : token Telegram, clés API)
 
-### Fichier `.env` attendu :Add README.md with project overview and instructions
+📄 Fichier `.env` attendu :
+
+Ce fichier doit contenir les informations sensibles comme :
+
+TELEGRAM_TOKEN=xxxxxxxxxxxx TELEGRAM_CHAT_ID=xxxxxxxx API_KEY=xxxxxxxx
 ---
+Utilisation
+
+Lancez le script avec :
+
+python Prédictions.py
+
+Si tout est bien configuré, les prédictions seront envoyées automatiquement (par email ou Telegram).
 
 ## 🚀 Installation
 
